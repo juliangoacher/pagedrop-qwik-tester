@@ -3,9 +3,33 @@ body {
 }
 
 /* https://qwik.dev/docs/integrations/image-optimization/#customize-image-width--and-height */
-.image-wrapper {
-  width: 300px;
-  position: relative;
+
+@media only screen and (min-width: 640px) {
+  .image-wrapper {
+    width: 640px;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .image-wrapper {
+    width: 768px;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .image-wrapper {
+    width: 1024px;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .image-wrapper {
+    width: 1280px;
+    position: relative;
+  }
 }
 
 .image-wrapper img {
